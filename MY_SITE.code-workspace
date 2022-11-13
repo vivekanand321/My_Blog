@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "MY_SITE",
+			"path": "."
+		}
+	],
+	"settings": {
+		"emmet.triggerExpansionOnTab": true
+	}
+}
