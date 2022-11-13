@@ -12,6 +12,7 @@ Class-based views
 Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+    'django-insecure-$4ybh31*c=o-h3es#o#edy4w0vx5@28db5pjw3y%h2g8j)u^e1'
 """
 from django.contrib import admin
 from django.urls import path,include
@@ -21,5 +22,5 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",include("blog.urls")) #if the path is empty then http//localhost:8000/ will give welcome page
-]+
+]
 
